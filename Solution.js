@@ -1,5 +1,4 @@
 
-
 // const {PriorityQueue} = require('@datastructures-js/priority-queue');
 /*
  PriorityQueue is included internally in the solution file on leetcode.
@@ -12,7 +11,6 @@
  * @return {number}
  */
 var makePrefSumNonNegative = function (input) {
-    // const {PriorityQueue} = require('@datastructures-js/priority-queue');
     const minHeap = new PriorityQueue((x, y) => x - y);
     let minOperationsToMakePrefixSumNonNegative = 0;
     let prefixSum = 0;
