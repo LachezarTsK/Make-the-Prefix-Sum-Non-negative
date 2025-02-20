@@ -5,7 +5,6 @@
  When running the code on leetcode it should stay outcommented. 
  It is mentioned just for information about which external library is applied for this data structure.
  */
-
 /**
  * @param {number[]} input
  * @return {number}
