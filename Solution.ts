@@ -5,7 +5,6 @@
  When running the code on leetcode it should stay outcommented. 
  It is mentioned just for information about which external library is applied for this data structure.
  */
-
 function makePrefSumNonNegative(input: number[]): number {
     const minHeap = new PriorityQueue((x, y) => x - y);
     let minOperationsToMakePrefixSumNonNegative = 0;
