@@ -1,6 +1,12 @@
 
+// const {PriorityQueue} = require('@datastructures-js/priority-queue');
+/*
+ PriorityQueue is included internally in the solution file on leetcode.
+ When running the code on leetcode it should stay outcommented. 
+ It is mentioned just for information about which external library is applied for this data structure.
+ */
+
 function makePrefSumNonNegative(input: number[]): number {
-    // const {PriorityQueue} = require('@datastructures-js/priority-queue');
     const minHeap = new PriorityQueue((x, y) => x - y);
     let minOperationsToMakePrefixSumNonNegative = 0;
     let prefixSum = 0;
